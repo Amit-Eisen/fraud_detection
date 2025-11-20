@@ -1,0 +1,48 @@
+======================================================================
+FRAUD DETECTION - BASELINE MODELS TRAINING REPORT
+======================================================================
+Date: 2025-11-05 20:59:08
+
+DATASET INFO:
+Total samples: 10,000,000
+Train samples: 8,000,000
+Test samples: 2,000,000
+Fraud rate: 0.0055
+
+MODEL COMPARISON:
+----------------------------------------------------------------------
+
+Random Forest:
+  Accuracy:  0.9853
+  Precision: 0.2633
+  Recall:    0.9398
+  F1-Score:  0.4114
+  ROC-AUC:   0.9959
+  TP: 10,307, FP: 28,832, TN: 1,960,201, FN: 660
+
+XGBoost:
+  Accuracy:  0.9825
+  Precision: 0.2365
+  Recall:    0.9793
+  F1-Score:  0.3810
+  ROC-AUC:   0.9984
+  TP: 10,740, FP: 34,677, TN: 1,954,356, FN: 227
+
+LightGBM:
+  Accuracy:  0.9311
+  Precision: 0.0692
+  Recall:    0.9292
+  F1-Score:  0.1288
+  ROC-AUC:   0.9313
+  TP: 10,191, FP: 137,099, TN: 1,851,934, FN: 776
+
+======================================================================
+RECOMMENDATION:
+----------------------------------------------------------------------
+Best model by F1-Score: Random Forest
+F1-Score: 0.4114
+
+Next steps:
+1. Run 02_evaluate_models.py for detailed visualizations
+2. Run 03_feature_importance.py to see which features matter
+3. Consider hyperparameter tuning for the best model

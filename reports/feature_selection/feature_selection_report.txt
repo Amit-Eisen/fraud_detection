@@ -1,0 +1,67 @@
+======================================================================
+FEATURE SELECTION REPORT
+======================================================================
+
+Date: 2025-11-07 15:02:45
+
+SELECTION SUMMARY:
+----------------------------------------------------------------------
+Features selected: 36
+Features dropped: 68
+Importance captured: 95.15%
+Importance lost: 4.85%
+
+SELECTED FEATURES:
+----------------------------------------------------------------------
+  1. amt                                  17.72%
+  2. amt_zscore                           12.78%
+  3. hour_cos                              9.86%
+  4. amt_per_age                           7.33%
+  5. amt_log                               5.51%
+  6. trans_hour                            4.25%
+  7. age                                   3.91%
+  8. is_high_value                         2.45%
+  9. trans_month                           2.45%
+ 10. hour_sin                              2.13%
+ 11. is_outlier_iqr                        2.00%
+ 12. category_gas_transport                1.88%
+ 13. profile_encoded                       1.83%
+ 14. city_pop                              1.74%
+ 15. trans_year                            1.61%
+ 16. night_x_high_value                    1.34%
+ 17. category_grocery_pos                  1.33%
+ 18. category_entertainment                1.19%
+ 19. city_encoded                          1.03%
+ 20. category_travel                       1.00%
+ 21. category_personal_care                0.94%
+ 22. category_food_dining                  0.92%
+ 23. category_shopping_pos                 0.90%
+ 24. category_shopping_net                 0.86%
+ 25. lat                                   0.86%
+ 26. outlier_x_night                       0.85%
+ 27. category_kids_pets                    0.80%
+ 28. category_home                         0.74%
+ 29. is_night                              0.67%
+ 30. category_grocery_net                  0.65%
+ 31. category_misc_net                     0.63%
+ 32. category_health_fitness               0.63%
+ 33. trans_day                             0.62%
+ 34. is_weekend                            0.62%
+ 35. long                                  0.60%
+ 36. is_micro_transaction                  0.52%
+
+RATIONALE:
+----------------------------------------------------------------------
+Selected top 36 features to:
+1. Reduce memory usage by 65.4%
+2. Enable training on full 35M rows (fits in 16GB RAM)
+3. Remove noise from low-importance features
+4. Maintain 95.15% of predictive power
+
+NEXT STEPS:
+----------------------------------------------------------------------
+1. Train XGBoost on full 35M rows with selected features
+2. Compare performance to baseline (10M rows, 104 features)
+3. If performance is similar/better → proceed to hyperparameter tuning
+4. If performance drops → try more features (60-70) or sample more rows
+

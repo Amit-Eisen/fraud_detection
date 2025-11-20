@@ -1,0 +1,52 @@
+merchant,fraud_count,total_count,fraud_rate
+fraud_schumm plc,1007,93760,1.074
+fraud_boyer plc,964,96383,1.0
+fraud_cormier llc,936,93873,0.997
+fraud_kuhn llc,1002,100661,0.995
+fraud_kilback llc,1006,116978,0.86
+fraud_torphy-goyette,485,68293,0.71
+fraud_jast-mcdermott,484,68521,0.706
+fraud_beier-hyatt,478,68298,0.7
+fraud_macejkovic-lesch,479,68687,0.697
+fraud_goyette howell and collier,473,68037,0.695
+fraud_lynch ltd,473,68248,0.693
+fraud_pouros-haag,468,68124,0.687
+fraud_barrows plc,468,68114,0.687
+fraud_bahringer schoen and corkery,468,68411,0.684
+fraud_willms kris and bergnaum,464,68239,0.68
+fraud_denesik and sons,467,68828,0.679
+fraud_weimann kuhic and beahan,465,68600,0.678
+fraud_morissette plc,463,68372,0.677
+fraud_pacocha-bauch,463,68433,0.677
+fraud_bernhard grant and langworth,463,68825,0.673
+fraud_kris-padberg,461,68675,0.671
+fraud_dooley inc,459,68509,0.67
+fraud_schuppe nolan and hoeger,458,68345,0.67
+fraud_daugherty pouros and beahan,459,68628,0.669
+fraud_conroy ltd,457,68561,0.667
+fraud_turner and sons,457,68484,0.667
+fraud_swaniawski lowe and robel,458,68822,0.665
+fraud_botsford ltd,451,68135,0.662
+fraud_baumbach hodkiewicz and walsh,455,68896,0.66
+fraud_lesch ltd,452,68637,0.659
+fraud_mayert group,451,68602,0.657
+fraud_baumbach strosin and nicolas,452,68774,0.657
+fraud_hickle group,446,68397,0.652
+fraud_okuneva schneider and rau,444,68157,0.651
+fraud_pfeffer and sons,444,68252,0.651
+fraud_sawayn plc,442,68032,0.65
+fraud_douglas schneider and turner,447,68766,0.65
+fraud_pouros-conroy,442,68107,0.649
+fraud_roob conn and tremblay,437,68130,0.641
+fraud_jacobi and sons,437,68124,0.641
+fraud_bins balistreri and beatty,436,68251,0.639
+fraud_pagac llc,437,68680,0.636
+fraud_jewess llc,432,68124,0.634
+fraud_mohr inc,434,68464,0.634
+fraud_friesen inc,431,68125,0.633
+fraud_nitzsche kessler and wolff,431,68347,0.631
+fraud_stoltenberg-beatty,422,68024,0.62
+fraud_quitzon green and bashirian,423,68584,0.617
+fraud_watsica haag and considine,419,68615,0.611
+other,164859,31029873,0.531
+fraud_dickinson ltd,216,94573,0.228

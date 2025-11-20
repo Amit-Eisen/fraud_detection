@@ -1,0 +1,23 @@
+======================================================================
+FRAUD DETECTION - NUMERICAL FEATURES ANALYSIS (FULL DATASET)
+======================================================================
+
+1. TRANSACTION AMOUNT ANALYSIS
+----------------------------------------------------------------------
+Metric   Non-Fraud     Fraud
+ Count 34446453.00 189925.00
+  Mean       68.50    537.97
+Median       23.00    413.05
+   Std      161.91    393.05
+   Min        1.00      1.01
+   Max    42188.41   1525.46
+   Q25        6.36    240.42
+   Q75       59.87    910.68
+
+2. KEY INSIGHTS
+----------------------------------------------------------------------
+Mean difference:   $469.47 (fraud higher)
+Median difference: $390.05 (fraud higher)
+
+⚠️  Significant difference in transaction amounts!
+   → Amount is likely a strong predictor for fraud

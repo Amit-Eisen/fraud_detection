@@ -1,0 +1,15 @@
+category,fraud_count,total_count,fraud_rate
+shopping_net,44323,2543488,1.743
+misc_net,24662,1578517,1.562
+grocery_pos,43877,3266890,1.343
+shopping_pos,22607,3418709,0.661
+gas_transport,15350,2980489,0.515
+travel,2952,1106289,0.267
+misc_pos,5897,2277880,0.259
+personal_care,5387,2447892,0.22
+entertainment,5474,2517230,0.217
+grocery_net,3035,1469923,0.206
+food_dining,4057,2602138,0.156
+kids_pets,4673,3014244,0.155
+health_fitness,3197,2159052,0.148
+home,4434,3253637,0.136

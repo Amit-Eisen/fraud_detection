@@ -1,0 +1,53 @@
+================================================================================
+FRAUD DETECTION - CORRELATION ANALYSIS
+================================================================================
+
+1. FEATURES MOST CORRELATED WITH FRAUD
+--------------------------------------------------------------------------------
+    feature  correlation  abs_correlation
+        amt     0.211319         0.211319
+trans_month    -0.013426         0.013426
+  unix_time    -0.008415         0.008415
+ trans_hour     0.004384         0.004384
+  trans_day    -0.002153         0.002153
+ trans_year    -0.001956         0.001956
+ merch_long     0.001427         0.001427
+       long     0.001405         0.001405
+        zip    -0.001047         0.001047
+   city_pop    -0.001009         0.001009
+   acct_num    -0.000913         0.000913
+        lat     0.000479         0.000479
+  merch_lat     0.000394         0.000394
+        ssn     0.000319         0.000319
+     cc_num     0.000272         0.000272
+
+2. KEY INSIGHTS
+--------------------------------------------------------------------------------
+Strongest POSITIVE correlations (higher value → more fraud):
+  • amt: 0.2113
+  • trans_hour: 0.0044
+  • merch_long: 0.0014
+
+Strongest NEGATIVE correlations (higher value → less fraud):
+  • trans_month: -0.0134
+  • unix_time: -0.0084
+  • trans_day: -0.0022
+
+3. MULTICOLLINEARITY CHECK
+--------------------------------------------------------------------------------
+⚠️  High correlations detected (>0.8):
+  • zip ↔ long: -0.928
+  • zip ↔ merch_long: -0.927
+  • lat ↔ merch_lat: 0.994
+  • long ↔ merch_long: 0.999
+  • unix_time ↔ trans_year: 0.867
+
+→ Consider removing one feature from each pair to reduce multicollinearity
+
+4. FEATURE SELECTION RECOMMENDATIONS
+--------------------------------------------------------------------------------
+Strong predictors (|corr| > 0.05): 1 features
+  → amt
+
+Weak predictors (|corr| < 0.01): 14 features
+  → Consider removing: unix_time, trans_hour, trans_day, trans_year, merch_long, long, zip, city_pop, acct_num, lat

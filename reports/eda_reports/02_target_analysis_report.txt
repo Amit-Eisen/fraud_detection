@@ -1,0 +1,18 @@
+======================================================================
+FRAUD DETECTION - TARGET VARIABLE ANALYSIS (FULL DATASET)
+======================================================================
+
+1. FRAUD DISTRIBUTION
+----------------------------------------------------------------------
+Total Transactions:     34,636,378
+Non-Fraud (0):          34,446,453 (99.45%)
+Fraud (1):              189,925 (0.55%)
+
+Fraud Rate:             0.548%
+Imbalance Ratio:        181.4:1
+
+2. INTERPRETATION
+----------------------------------------------------------------------
+⚠️  HIGH CLASS IMBALANCE (<1% fraud)
+   Recommendation: Use class weights or balanced sampling
+   Metrics: Precision, Recall, F1, ROC-AUC

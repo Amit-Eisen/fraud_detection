@@ -1,0 +1,28 @@
+{
+  "dataset_info": {
+    "total_rows": 12932992,
+    "fraud_cases": 78597,
+    "fraud_rate": 0.006077248018092024,
+    "legitimate_cases": 12854395
+  },
+  "metrics": {
+    "accuracy": 0.9990827335236889,
+    "precision": 0.8868099510792701,
+    "recall": 0.9732941460870008,
+    "f1_score": 0.9280415385268623,
+    "roc_auc": 0.9996282848792134
+  },
+  "confusion_matrix": {
+    "tn": 12844631,
+    "fp": 9764,
+    "fn": 2099,
+    "tp": 76498
+  },
+  "business_metrics": {
+    "fraud_caught": 76498,
+    "fraud_missed": 2099,
+    "fraud_detection_rate": 97.32941460870008,
+    "false_alarms": 9764,
+    "false_alarm_rate": 0.07595845623228475
+  }
+}

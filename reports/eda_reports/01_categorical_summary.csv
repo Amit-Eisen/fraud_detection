@@ -1,0 +1,16 @@
+Column,Unique_Values,Most_Common,Most_Common_Count
+first,686,michael,777650
+last,1000,smith,726513
+gender,2,f,17929380
+street,19948,334 johnson crossroad apt. 931,4394
+city,5184,houston,349782
+state,51,ca,4033120
+job,51,other,30736010
+dob,13861,1989-07-25,16066
+profile,12,adults2550femaleurban,9703442
+trans_num,34636378,52226c099d060def61a7e0d3de214e4b,1
+trans_date,731,2019-12-14,123001
+trans_time,86400,18:46:33,597
+category,14,shopping_pos,3418709
+merchant,51,other,31029873
+trans_weekday,7,Saturday,7132116

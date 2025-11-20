@@ -1,0 +1,112 @@
+================================================================================
+FRAUD DETECTION - CATEGORICAL FEATURES ANALYSIS (FULL DATASET)
+================================================================================
+
+JOB ANALYSIS
+--------------------------------------------------------------------------------
+Total unique jobs: 51
+
+Top 10 jobs by Fraud Rate:
+                              job  fraud_count  total_count  fraud_rate
+                  legal secretary          406        71771       0.566
+ engineer broadcasting operations          420        75402       0.557
+                            other       170917     30736010       0.556
+      administrator civil service          444        79788       0.556
+                financial adviser          403        72505       0.556
+exhibitions officer museumgallery          409        73936       0.553
+                     web designer          386        71761       0.538
+             operations geologist          416        77583       0.536
+             accountant chartered          376        71002       0.530
+                           artist          460        87820       0.524
+
+Top 10 jobs by Fraud Count:
+                             job  fraud_count  total_count  fraud_rate
+                           other       170917     30736010       0.556
+           child psychotherapist          521       100246       0.520
+                          artist          460        87820       0.524
+   clinical molecular geneticist          455        98033       0.464
+                 patent attorney          445        89277       0.498
+     administrator civil service          444        79788       0.556
+               surveyor quantity          432        84159       0.513
+             mental health nurse          426        90743       0.469
+engineer broadcasting operations          420        75402       0.557
+            operations geologist          416        77583       0.536
+
+KEY INSIGHTS:
+Highest fraud rate:  legal secretary (0.566%)
+Most fraud count:    other (170,917 frauds)
+
+================================================================================
+
+MERCHANT ANALYSIS
+--------------------------------------------------------------------------------
+Total unique merchants: 51
+
+Top 10 merchants by Fraud Rate:
+                        merchant  fraud_count  total_count  fraud_rate
+                fraud_schumm plc         1007        93760       1.074
+                 fraud_boyer plc          964        96383       1.000
+               fraud_cormier llc          936        93873       0.997
+                  fraud_kuhn llc         1002       100661       0.995
+               fraud_kilback llc         1006       116978       0.860
+            fraud_torphy-goyette          485        68293       0.710
+            fraud_jast-mcdermott          484        68521       0.706
+               fraud_beier-hyatt          478        68298       0.700
+          fraud_macejkovic-lesch          479        68687       0.697
+fraud_goyette howell and collier          473        68037       0.695
+
+Top 10 merchants by Fraud Count:
+              merchant  fraud_count  total_count  fraud_rate
+                 other       164859     31029873       0.531
+      fraud_schumm plc         1007        93760       1.074
+     fraud_kilback llc         1006       116978       0.860
+        fraud_kuhn llc         1002       100661       0.995
+       fraud_boyer plc          964        96383       1.000
+     fraud_cormier llc          936        93873       0.997
+  fraud_torphy-goyette          485        68293       0.710
+  fraud_jast-mcdermott          484        68521       0.706
+fraud_macejkovic-lesch          479        68687       0.697
+     fraud_beier-hyatt          478        68298       0.700
+
+KEY INSIGHTS:
+Highest fraud rate:  fraud_schumm plc (1.074%)
+Most fraud count:    other (164,859 frauds)
+
+================================================================================
+
+CATEGORY ANALYSIS
+--------------------------------------------------------------------------------
+Total unique categorys: 14
+
+Top 10 categorys by Fraud Rate:
+     category  fraud_count  total_count  fraud_rate
+ shopping_net        44323      2543488       1.743
+     misc_net        24662      1578517       1.562
+  grocery_pos        43877      3266890       1.343
+ shopping_pos        22607      3418709       0.661
+gas_transport        15350      2980489       0.515
+       travel         2952      1106289       0.267
+     misc_pos         5897      2277880       0.259
+personal_care         5387      2447892       0.220
+entertainment         5474      2517230       0.217
+  grocery_net         3035      1469923       0.206
+
+Top 10 categorys by Fraud Count:
+     category  fraud_count  total_count  fraud_rate
+ shopping_net        44323      2543488       1.743
+  grocery_pos        43877      3266890       1.343
+     misc_net        24662      1578517       1.562
+ shopping_pos        22607      3418709       0.661
+gas_transport        15350      2980489       0.515
+     misc_pos         5897      2277880       0.259
+entertainment         5474      2517230       0.217
+personal_care         5387      2447892       0.220
+    kids_pets         4673      3014244       0.155
+         home         4434      3253637       0.136
+
+KEY INSIGHTS:
+Highest fraud rate:  shopping_net (1.743%)
+Most fraud count:    shopping_net (44,323 frauds)
+
+================================================================================
+
