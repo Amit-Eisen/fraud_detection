@@ -256,22 +256,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Amit Eisen**
 
-- 📧 Email: [your-email@example.com]
-- 💼 LinkedIn: [Your LinkedIn]
-- 🐙 GitHub: [@your-username](https://github.com/your-username)
-
----
-
-## 📊 Project Stats
-
-![Lines of Code](https://img.shields.io/badge/Lines%20of%20Code-5000%2B-blue)
-![Data Processed](https://img.shields.io/badge/Data%20Processed-35M%20rows-green)
-![Model Accuracy](https://img.shields.io/badge/ROC--AUC-0.9996-brightgreen)
-![Status](https://img.shields.io/badge/Status-Production%20Ready-success)
-
----
-
-**⭐ If you find this project useful, please consider giving it a star!**
+- 📧 Email: eisenamit96@gmail.com
+- 💼 LinkedIn: https://www.linkedin.com/in/amit-eisen/
 
 ---
 
