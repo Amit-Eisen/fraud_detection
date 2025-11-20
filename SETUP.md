@@ -47,7 +47,13 @@ python -c "import pandas, xgboost, optuna; print('✅ All packages installed!')"
 
 ## Data Preparation
 
-### Step 1: Place Raw Data
+### Step 1: Download and Place Raw Data
+
+**Dataset**: [🌍💳 Credit Card Fraud Mega Dataset 🕵️‍♂️📈](https://www.kaggle.com/datasets/karthikgangula/credit-card-fraud-mega-dataset)
+
+See [`DATA_DOWNLOAD.md`](DATA_DOWNLOAD.md) for detailed download instructions.
+
+Place the file in:
 ```
 data/raw/credit_card_fraud.csv  (35M rows, ~10GB)
 ```

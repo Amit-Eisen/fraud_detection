@@ -14,7 +14,7 @@
 
 ### Option 1: Kaggle (Recommended)
 
-**Original Dataset**: [Credit Card Fraud Detection Dataset 2023](https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023)
+**Original Dataset**: [🌍💳 Credit Card Fraud Mega Dataset 🕵️‍♂️📈](https://www.kaggle.com/datasets/karthikgangula/credit-card-fraud-mega-dataset)
 
 **Steps:**
 1. Go to Kaggle dataset page (link above)
@@ -33,11 +33,11 @@ mkdir -p ~/.kaggle
 # Place kaggle.json in ~/.kaggle/
 
 # Download dataset
-kaggle datasets download -d nelgiriyewithana/credit-card-fraud-detection-dataset-2023
+kaggle datasets download -d karthikgangula/credit-card-fraud-mega-dataset
 
 # Extract and move
-unzip credit-card-fraud-detection-dataset-2023.zip
-mv creditcard_2023.csv fraud_detection/data/raw/credit_card_fraud.csv
+unzip credit-card-fraud-mega-dataset.zip
+mv credit_card_fraud.csv fraud_detection/data/raw/credit_card_fraud.csv
 ```
 
 ---
@@ -176,4 +176,5 @@ If you have issues downloading the dataset:
 ---
 
 **Ready to start?** Once downloaded, proceed to `SETUP.md` for the full pipeline!
+
 

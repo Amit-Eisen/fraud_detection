@@ -29,7 +29,7 @@ This project implements a **state-of-the-art fraud detection system** that proce
 
 ## 📊 Dataset
 
-**Source**: [Kaggle - Credit Card Fraud Detection Dataset 2023](https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023)
+**Source**: [🌍💳 Credit Card Fraud Mega Dataset 🕵️‍♂️📈](https://www.kaggle.com/datasets/karthikgangula/credit-card-fraud-mega-dataset)
 
 **Statistics**:
 - 35,180,112 transactions
@@ -246,7 +246,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- **Dataset**: [Kaggle - Credit Card Fraud Detection 2023](https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023)
+- **Dataset**: [🌍💳 Credit Card Fraud Mega Dataset 🕵️‍♂️📈](https://www.kaggle.com/datasets/karthikgangula/credit-card-fraud-mega-dataset)
 - **Inspiration**: Real-world fraud detection challenges
 - **Tools**: XGBoost, Optuna, scikit-learn communities
 
@@ -256,8 +256,22 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Amit Eisen**
 
-- 📧 Email: eisenamit96@gmail.com
-- 💼 LinkedIn: https://www.linkedin.com/in/amit-eisen/
+- 📧 Email: [your-email@example.com]
+- 💼 LinkedIn: [Your LinkedIn]
+- 🐙 GitHub: [@your-username](https://github.com/your-username)
+
+---
+
+## 📊 Project Stats
+
+![Lines of Code](https://img.shields.io/badge/Lines%20of%20Code-5000%2B-blue)
+![Data Processed](https://img.shields.io/badge/Data%20Processed-35M%20rows-green)
+![Model Accuracy](https://img.shields.io/badge/ROC--AUC-0.9996-brightgreen)
+![Status](https://img.shields.io/badge/Status-Production%20Ready-success)
+
+---
+
+**⭐ If you find this project useful, please consider giving it a star!**
 
 ---
 
